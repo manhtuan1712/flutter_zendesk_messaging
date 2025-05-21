@@ -63,7 +63,7 @@ class ZendeskMessaging(
     }
 
     fun show() {
-        Zendesk.instance.messaging.showMessaging(plugin.activity!!, Intent.FLAG_ACTIVITY_NEW_TASK)
+        Zendesk.instance.messaging.showMessaging(plugin.activity!!)
         println("$TAG - show")
     }
 
